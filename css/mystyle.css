@@ -12,7 +12,7 @@
 }
 .Intro{
     padding: 15%;
-    background-image: linear-gradient(to bottom right, #d8494944, rgba(202, 64, 64, 0.171),rgba(211, 211, 81, 0.123)),url(Photos/pexels-photo-1546901.jpeg);
+    background-image: linear-gradient(to bottom right, #d8494944, rgba(202, 64, 64, 0.171),rgba(211, 211, 81, 0.123)),url(../Photos/pexels-photo-1546901.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
