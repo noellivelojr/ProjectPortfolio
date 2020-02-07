@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: mySecondfont;
+    src: url(../Fonts/Fonts/EastDjakartaFont.ttf);
+}
+@font-face{
+    font-family: Arvo;
+    src: url(../Fonts/Fonts/Arvo.ttf);
+}
+.Intro{
+    padding: 15%;
+    background-image: linear-gradient(to bottom right, #d8494944, rgba(202, 64, 64, 0.171),rgba(211, 211, 81, 0.123)),url(../Photos/pexels-photo-1546901.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-bottom: 30%;
+    text-align: center;
+    line-height: 15px;
+}
+#mypic{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 8000px;
+}
+#head{
+    padding-top: 80px;
+    padding-bottom: 10%;
+    font-family: Arvo;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#subhead{
+    padding-top: 30px;
+    font-family: Arvo;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.Body{
+    background: white;
+    text-align: center;
+    padding-top: 30px;
+    margin: auto;
+}
+#hi{
+    font-family: mySecondfont;
+    font-size: 40px;
+    font-weight: normal;
+    padding-bottom: 10%;
+    color: #07a3b8;
+}
+#sk{
+    font-family: mySecondfont;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10%;
+    color: #07a3b8;
+}
+#web{
+    width: 200px;
+    height: 200px;
+}
+#sup{
+    padding-top: .1%;
+    font-family: mySecondfont;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #07a3b8;
+}
+#Soon{
+    padding-top: 15px;
+    padding-bottom: 5%;
+    font-family: Arvo;
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+}
+.motor{
+    text-align: center;
+    padding-top: 5%;
+}
+#mot{
+    width: 200px;
+    height: 200px;
+}
+#bike{
+    font-family: mySecondfont;
+    font-size: 30px;
+    font-weight: bold;
+    color: #07a3b8;
+
+}
+#con{
+    padding-top: 15px;
+    padding-bottom: 5%;
+    font-family: Arvo;
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+}
+.game{
+    text-align: center;
+    padding-top: 10%;
+}
+#craft{
+    width: 200px;
+    height: 200px;
+}
+#mine{
+    font-family: mySecondfont;
+    font-size: 30px;
+    font-weight: bold;
+    color: #07a3b8;
+}
+#MC{
+    padding-top: 15px;
+    padding-bottom: 10%;
+    font-family: Arvo;
+    font-weight: normal;
+    font-size: 25px;
+    color: black;
+}
+.get{
+    text-align: center;
+    padding-bottom: 10%;
+}
+#touch{
+    font-family: mySecondfont;
+    font-size: 30px;
+    font-weight: bold;
+    color: #07a3b8;
+    padding-bottom: 3%;
+}
+#know{
+    font-family: mySecondfont;
+    font-size: 25px;
+    font-weight: normal;
+    color: #07a3b8;
+    padding-bottom: 3%;
+}
+#hit{
+    font-family: Arvo;
+    font-size: 25px;
+    color: black;
+}
+button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to bottom right, #d8494944, rgba(202, 64, 64, 0.171),rgba(211, 211, 81, 0.123));
+    color: black;
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgba(243, 65, 65, 0.719);
+    font-family: mySecondfont;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 25px;
+    transition: .6s;
+    overflow: hidden;
+}
+button:hover{
+    background: #d8494944;
+    cursor: pointer;
+}
+.btn{
+    padding-bottom: 5%;
+}
+button:hover::after{
+    transform: translate(150px) skew(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+.foot{
+    padding: 2%;
+    text-align: center;
+    background: linear-gradient(to bottom right, #d62c2c46, rgba(226, 73, 73, 0.185),rgba(223, 223, 77, 0.123));
+}
+#ftext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+#all{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#one{
+    width: 50px;
+    height: 50px;
+}
+#two{
+    width: 50px;
+    height: 50px;
+}
+#three{
+    width: 50px;
+    height: 50px;
+}
